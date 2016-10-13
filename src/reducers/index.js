@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import TopicsReducer from './reducer_topics'
+import TopicsReducer from './reducer_topics';
 
 const rootReducer = combineReducers({
-  topic: TopicsReducer
+  topics: TopicsReducer
 });
 
 export default rootReducer;
