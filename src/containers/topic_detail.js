@@ -13,7 +13,7 @@ class TopicDetail extends Component {
     }
     return (
       <div>
-        <div>My {this.props.topic.title}</div>
+        <div>{this.props.topic.title}</div>
       </div>
     );
   }
