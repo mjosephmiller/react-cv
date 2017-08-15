@@ -4,5 +4,12 @@
 }
 
 .info{
-  margin-left: 35%;
+  padding-left: 12vw;
+}
+
+.app-container{
+}
+
+.edu-link{
+  font-size: larger;
 }

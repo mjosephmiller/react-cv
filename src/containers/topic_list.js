@@ -19,9 +19,11 @@ class TopicList extends Component {
 
   render() {
     return (
-      <ul className="list-group col-sm-4">
-        {this.renderList()}
-      </ul>
+      <div className="list-group" style={{float: "left"}}>
+        <ul className="list-group col-sm-12">
+          {this.renderList()}
+        </ul>
+      </div>
     )
   }
 }
@@ -32,9 +34,11 @@ function mapStateToProps(state) {
   };
 }
 
+// anything returned from this function will end up as props on the BookList container
 function mapDispatchToProps(dispatch) {
+  // whenever selectTopic is called, the result should be passed to all reducers
   return bindActionCreators({ selectTopic: selectTopic }, dispatch);
 }
 
-
+// promotes BookList from component to container, this makes selectBook available as prop to BookList
 export default connect(mapStateToProps, mapDispatchToProps)(TopicList);

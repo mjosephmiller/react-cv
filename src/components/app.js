@@ -6,7 +6,7 @@ import TopicDetail from '../containers/topic_detail';
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="app-container">
         <TopicList />
         <TopicDetail />
       </div>
