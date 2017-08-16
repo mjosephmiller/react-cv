@@ -19,7 +19,7 @@ class TopicList extends Component {
 
   render() {
     return (
-      <div className="list-group" style={{float: "left"}}>
+      <div className="list-group">
         <ul className="list-group col-sm-12">
           {this.renderList()}
         </ul>

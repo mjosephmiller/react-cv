@@ -2,18 +2,19 @@ export default function() {
   return [
     {
         title: "About",
-        subTitle1Context: "A junior software developer, often found cracking edge cases, nesting callbacks and scouring docs for matchers. I decided to pursue programming after becoming fascinated by how technology can be used to solve the world’s inefficiencies through a combination of creative and technical means. Having successfully applied to Makers Academy, Europe’s leading developer bootcamp, I took the leap from digital-savvy early-adopter to innovative engineer and I’ve found an endless source of learning on the other side."
+        subTitle1Context: "A junior software developer, often found cracking edge cases, nesting callbacks and scouring docs for matchers. Interested in how technology can be used to solve inefficiencies through a combination of creative and technical means, I've spent the past year honing my coding skills, first at Makers Academy - Europe’s leading developer bootcamp - and now at Bilendo - where we're challenging how Europe handles accounts management."
     },
     {
         title: "Skills",
         subTitle1: "Initiative:",
-        subTitle1Context: "I am proactive when it comes to finding ways to improve productivity and increase value. In my former role, I'd regularly pitch ideas to brands and successfully produced partnerships with multinationals, including Warner Music Group and Illva Saronno. Identifying such opportunities continues to benefit me as I seek ways to bring value to my teammates and pitch ideas at hackathons. Most recently, I successfully pitched a web application that would track novice coders' confidence in key skills, identify weaknesses and send a weekly email with related content from the web.",
+        subTitle1Context: "I am proactive when it comes to finding ways to improve productivity and increase value. In my former role, I'd regularly pitch ideas to brands and successfully produced partnerships with multinationals, including Warner Music Group and Illva Saronno. Identifying such opportunities continues to benefit me as I seek ways to bring value to my teammates and pitch ideas at hackathons. Most recently, I successfully pitched a web application that would track novice coders' confidence in key skills, identify weaknesses and autofill a weekly newsletter with related learning materials.",
         subTitle2:"Team Work:",
-        subTitle2Context: "I love working in a team and pulling together on a project. While working at EMMAMILLER.COM for example, I was recognised for boosting team morale, as we powered through back to back projects in London, Paris, Milan, New York and Seoul. During these trips, each under a week-long, work was fast-paced and all-hours. I've a track record for going to lengths to ensure that the finished product best represents the extent of what my team can achieve, whether that requires working late nights and weekends, or foregoing my own ideas to get behind another's."
+        subTitle2Context: "I have a track record for going to lengths to ensure that the finished product best represents the extent of what my team can achieve, whether that requires working late nights and weekends, or foregoing my own ideas to get behind another's."
     },
     {
         title: "Projects",
-        subTitle1Context: ""},
+        subTitle1Context: ""
+    },
     {
         title: "Education",
         eduLink1: '<a href=\"http://www.makersacademy.com\">Makers Academy<\/a>',

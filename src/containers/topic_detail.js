@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import TopicsReducer from '../reducers/reducer_topics';
-// import '../../style/style.css'
 
 class TopicDetail extends Component {
   render() {
