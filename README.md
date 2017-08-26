@@ -1,3 +1,3 @@
 # React CV
 
-Live Version [here.](https://mikeymiller.co)
+Live Version [here.](http://mikeymiller.co)
