@@ -8,7 +8,7 @@ class TopicDetail extends Component {
       return (
         <div className="info">
           <h3>{TopicsReducer()[0].title}</h3>
-          <div>{TopicsReducer()[0].subTitle1Context}</div>
+          {formatText(TopicsReducer()[0].subTitle1Context)}
         </div>
       )
     }
@@ -20,12 +20,14 @@ class TopicDetail extends Component {
         {checkNeed(topic.subTitle1)}
         <h6 className="subtitle">{topic.dates}</h6>
         <h6 className="summary">{topic.subTitle1Summary}</h6>
-        <p className="bullets">{topic.subTitle1Context}</p>
+        {formatText(topic.subTitle1Context)}
+        {formatText(topic.bullets)}
         <div className="edu-link" dangerouslySetInnerHTML={createMarkup(topic.eduLink2)} />
         {checkNeed(topic.subTitle2)}
         <h6 className="subtitle">{topic.universityDates}</h6>
         <p className="subtitle">{topic.course}</p>
-        <p className="bullets">{topic.subTitle2Context}</p>
+        <h6 className="summary">{topic.subTitle2Summary}</h6>
+        {formatText(topic.subTitle2Context)}
         <h5 className="subtitle">{topic.school}</h5>
       </div>
     )
@@ -51,6 +53,26 @@ function checkNeed(topic_attr){
     return (
       <h5 className="subtitle">{topic_attr}</h5>
     )
+}
+
+function formatText(topic_attr){
+  if(!topic_attr) {
+    return null
+  }
+  var br = topic_attr.map(function(line) {
+      return (<p>{line}<br/></p>);
+  });
+  return (<div>{ br }</div>);
+}
+
+function formatBullets(topic_attr){
+  if(!topic_attr) {
+    return null
+  }
+  var bullets = topic_attr.map(function(bullet) {
+      return (<li>{bullet}</li>);
+  });
+  return (<ul>{ bullets }</ul>);
 }
 
 export default connect(mapStateToProps)(TopicDetail);
