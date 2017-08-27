@@ -6,7 +6,7 @@ class TopicDetail extends Component {
   render() {
     if(!this.props.topic) {
       return (
-        <div className="info">
+        <div className="info col-8">
           <h3>{TopicsReducer()[0].title}</h3>
           {formatText(TopicsReducer()[0].subTitle1Context)}
         </div>
@@ -14,21 +14,21 @@ class TopicDetail extends Component {
     }
     var topic = this.props.topic
     return (
-      <div className="info">
+      <div className="info col-8">
         <h3 className="title">{topic.title}</h3>
         <div className="edu-link" dangerouslySetInnerHTML={createMarkup(topic.eduLink1)} />
         {checkNeed(topic.subTitle1)}
-        <h6 className="subtitle">{topic.dates}</h6>
-        <h6 className="summary">{topic.subTitle1Summary}</h6>
+        {checkNeed(topic.dates)}
+        {checkNeed(topic.subTitle1Summary)}
         {formatText(topic.subTitle1Context)}
-        {formatText(topic.bullets)}
+        {formatBullets(topic.bullets)}
         <div className="edu-link" dangerouslySetInnerHTML={createMarkup(topic.eduLink2)} />
         {checkNeed(topic.subTitle2)}
-        <h6 className="subtitle">{topic.universityDates}</h6>
-        <p className="subtitle">{topic.course}</p>
-        <h6 className="summary">{topic.subTitle2Summary}</h6>
+        {checkNeed(topic.universityDates)}
+        {checkNeed(topic.course)}
+        {checkNeed(topic.subTitle2Summary)}
+        {formatBullets(topic.bullets2)}
         {formatText(topic.subTitle2Context)}
-        <h5 className="subtitle">{topic.school}</h5>
       </div>
     )
   }
@@ -51,7 +51,7 @@ function checkNeed(topic_attr){
     return null
   }
     return (
-      <h5 className="subtitle">{topic_attr}</h5>
+      <h6 className="subtitle">{topic_attr}</h6>
     )
 }
 

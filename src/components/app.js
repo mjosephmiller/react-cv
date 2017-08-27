@@ -7,8 +7,10 @@ export default class App extends Component {
   render() {
     return (
       <div className="app-container">
-        <TopicList />
-        <TopicDetail />
+          <div className="row">
+            <TopicList />
+            <TopicDetail />
+          </div>
       </div>
     );
   }

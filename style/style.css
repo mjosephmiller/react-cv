@@ -1,16 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 .container{
-  max-width: 1140px;
   margin: 5% 5% 5% 5%;
 }
 
 .info{
-  width: 80%;
-  padding-left: 20%;
 }
 
 .list-group{
   float: left;
-  width: 20%;
   word-wrap: break-word;
 }
 
@@ -18,7 +18,11 @@
 }
 
 .edu-link{
-  font-size: larger;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
 }
 
 .display-linebreak {

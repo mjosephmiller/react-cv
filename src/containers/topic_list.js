@@ -19,8 +19,8 @@ class TopicList extends Component {
 
   render() {
     return (
-      <div className="list-group">
-        <ul className="list-group col-sm-12">
+      <div className="list-group col-3">
+        <ul className="list-group">
           {this.renderList()}
         </ul>
       </div>

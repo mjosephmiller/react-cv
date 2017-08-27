@@ -2,7 +2,7 @@ export default function() {
   return [
     {
         title: "About",
-        subTitle1Context: ["A junior software developer, often found cracking edge cases, nesting callbacks and scouring docs for matchers.", "Interested in how technology can be used to solve inefficiencies through a combination of creative and technical means, I've spent the past year honing my coding skills, first at Makers Academy - Europe’s leading developer bootcamp - and now at Bilendo - where we're challenging how Europe handles accounts management."]
+        subTitle1Context: ["A junior software developer, often found cracking edge cases, nesting callbacks and scouring docs for matchers.", "Interested in how technology can be used to solve inefficiencies through a combination of creative and technical means, I've spent the past year honing my coding skills, first at Makers Academy - Europe's leading developer bootcamp - and now at Bilendo - where we're challenging how Europe handles accounts management."]
     },
     {
         title: "Skills",
@@ -23,7 +23,7 @@ export default function() {
         eduLink1: '<a href=\"http://www.makersacademy.com\">Makers Academy<\/a>',
         dates: "July - October 2016",
         subTitle1Context: ["A 16-week software development bootcamp"],
-        bullets: ["Object-oriented programming, Agile Methodologies, Test-Driven Development, Software Craftsmanship, Ruby, Rails, Javascript, Node.js, RSpec, Jasmine, Mocha, Zombie"],
+        bullets: ["Object-oriented programming", "Agile Methodologies", "Test-Driven Development", "Software Craftsmanship", "Ruby, Rails, Javascript, Node.js", "RSpec, Minitest, Capybara, Jasmine, Mocha, Zombie"],
         eduLink2: '<a href=\"https://www.kcl.ac.uk\">King\'s College London<\/a>',
         universityDates:"2010 - 2013",
         course:"English Language & Literature, BA Hons (2:1)",
@@ -34,17 +34,17 @@ export default function() {
         subTitle1: "Programmer - Bilendo",
         dates: "2016 - Present",
         subTitle1Summary: "Bilendo is a cloud-based solution for accounts receivables management.",
-        subTitle1Context: ["- Full-stack development in Ruby, Rails, jQuery, Redis, Postgres, AWS, HTML, CSS", "- Build and maintain features that improve scalability and performance", "- Follow clean code practices with test-driven, agile development", "- Work with stakeholders to identify pain points and build user-centered solutions", "- Evaluate and implement third-party APIs, including Fastbill, Zuora, Teamleader and sevDesk."],
+        bullets: ["Full-stack development in Ruby, Rails, jQuery, Redis, Postgres, AWS, HTML, CSS", "Build and maintain features that improve scalability and performance", "Follow clean code practices with test-driven, agile development", "Work with stakeholders to identify pain points and build user-centered solutions", "Evaluate and implement third-party APIs, including Fastbill, Zuora, Teamleader and sevDesk."],
         subTitle2: "Digital Content Creative - Freelance",
         universityDates: "2014 - 2016",
         subTitle2Summary: "Companies: The Weinstein Company, Hanley NYC, EMMAMILLER.COM",
-        subTitle2Context: ["- Devised growth strategies for social platforms, including Instagram, Twitter, Facebook, Snapchat and Youtube.", "- Worked with editorial and product teams to deliver cross-platform content - including video - to engage the brands' respective audiences, often to tight deadlines.", "- Identifying a gap in my skillset, I taught myself to use Adobe Photoshop, InDesign and Premiere Pro.", "- Managed collaborations with brands, such as Warner Music Group at Coachella Music Festival, Tom Ford Beauty at New York Fashion Week and Illva Saronno."]
+        bullets2: ["Devised growth strategies for social platforms, including Instagram, Twitter, Facebook, Snapchat and Youtube.", "Worked with editorial and product teams to deliver cross-platform content - including video - to engage the brands' respective audiences, often to tight deadlines.", "Identifying a gap in my skillset, I taught myself to use Adobe Photoshop, InDesign and Premiere Pro.", "Managed collaborations with brands, such as Warner Music Group at Coachella Music Festival, Tom Ford Beauty at New York Fashion Week and Illva Saronno."]
     },
     {
         title: "Talks & Publications",
         subTitle1: "Titles: SID, BRIC, Baku, The Financial Times",
         subTitle1Summary: "Cover business, tech and lifestyle, as well as talent interviews. Recent contributions include:",
-        bullets: ["- Rolls Royce: The Business of Bespoke Manufacturing (BRIC, I)", "- Jim Sturgess for SID Magazine (Cover - SID, VI)", "- Studying in the USA - Q&A (King's College London, 2015)"]
+        bullets: ["Rolls Royce: The Business of Bespoke Manufacturing (BRIC, I)", "Jim Sturgess for SID Magazine (Cover - SID, VI)", "Studying in the USA - Q&A (King's College London, 2015)"]
     },
     {
         title: "Interests",
