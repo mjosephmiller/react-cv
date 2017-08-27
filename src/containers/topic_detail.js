@@ -55,12 +55,24 @@ function checkNeed(topic_attr){
     )
 }
 
+function formatItalics(substr){
+  return (<i>{substr}</i>);
+}
+
 function formatText(topic_attr){
   if(!topic_attr) {
     return null
   }
-  var br = topic_attr.map(function(line) {
-      return (<p>{line}<br/></p>);
+  var br = topic_attr.map(function(string) {
+      var index = string.indexOf("- I'm nothing if not persevering.")
+      if(index === -1){
+        return(<p>{string}<br/></p>)
+      }
+      else{
+        var substr = string.slice(index)
+        var italicised = formatItalics(substr)
+        return(<p>{string.replace(substr, '')}{italicised}<br/></p>)
+      }
   });
   return (<div>{ br }</div>);
 }
