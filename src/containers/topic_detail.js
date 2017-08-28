@@ -64,7 +64,7 @@ function formatText(topic_attr){
     return null
   }
   var br = topic_attr.map(function(string, index) {
-      var stringIndex = string.indexOf("—I'm nothing if not persevering.")
+      var stringIndex = string.indexOf("- I'm nothing if not persevering.")
       if(stringIndex === -1){
         return(<p key={index}>{string}<br/></p>)
       }
