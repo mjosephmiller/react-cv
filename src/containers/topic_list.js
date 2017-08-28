@@ -34,11 +34,11 @@ function mapStateToProps(state) {
   };
 }
 
-// anything returned from this function will end up as props on the BookList container
+// anything returned from this function will end up as props on the TopicList container
 function mapDispatchToProps(dispatch) {
   // whenever selectTopic is called, the result should be passed to all reducers
   return bindActionCreators({ selectTopic: selectTopic }, dispatch);
 }
 
-// promotes BookList from component to container, this makes selectBook available as prop to BookList
+// promotes TopicList from component to container, this makes selectBook available as prop to TopicList
 export default connect(mapStateToProps, mapDispatchToProps)(TopicList);
