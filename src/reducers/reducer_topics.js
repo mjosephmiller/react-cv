@@ -7,7 +7,7 @@ export default function() {
     {
         title: "Skills",
         subTitle1: "Initiative:",
-        subTitle1Context: ["I am proactive when it comes to finding ways to improve productivity and increase value.", "In my former role for example, I'd regularly pitch ideas to brands and as a result, successfully produced partnerships with Warner Music Group, Illva Saronno and more. My knack for identifying opportunities continues to benefit me as I seek ways to bring value to my teammates and pitch ideas at hackathons."],
+        subTitle1Context: ["I am proactive when it comes to finding ways to improve productivity and increase value.", "It is this quality that has driven many of my choices, both in my academic and professional life - receiving scholarships to China and the US while an undergraduate and later, successfully pitching ideas to major brands like Warner Music Group, Illva Saronno and more. My knack for identifying opportunities continues to benefit me as I seek ways to bring value to my teammates."],
         subTitle2:"Team Work:",
         subTitle2Context: ["I have a track record for going to lengths to ensure that the finished product best represents the extent of what my team can achieve, whether that requires working late nights and weekends, or foregoing my own ideas to get behind another's."]
     },
