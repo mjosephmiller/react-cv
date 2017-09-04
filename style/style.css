@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-@media(max-width:576px){
+@media (max-width:575px) {
   .topic-menu {
     margin-bottom: 5%;
   }
@@ -13,10 +13,6 @@
 }
 
 .info{
-}
-
-.list-group{
-  word-wrap: break-word;
 }
 
 .app-container{

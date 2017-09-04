@@ -19,7 +19,7 @@ class TopicList extends Component {
 
   render() {
     return (
-    <div className="topic-menu col-lg-2 col-sm-3">
+    <div className="topic-menu col-sm-3">
         <ul className="list-group">
           {this.renderList()}
         </ul>

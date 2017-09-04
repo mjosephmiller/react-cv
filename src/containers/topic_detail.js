@@ -6,7 +6,7 @@ class TopicDetail extends Component {
   render() {
     if(!this.props.topic) {
       return (
-        <div className="info col-lg-7 col-sm-9">
+        <div className="info col-sm-9">
           <h3>{TopicsReducer()[0].title}</h3>
           {formatText(TopicsReducer()[0].subTitle1Context)}
         </div>
@@ -14,7 +14,7 @@ class TopicDetail extends Component {
     }
     var topic = this.props.topic
     return (
-      <div className="info col-lg-7 col-sm-9">
+      <div className="info col-sm-9">
         <h3 className="title">{topic.title}</h3>
         <div className="edu-link" dangerouslySetInnerHTML={createMarkup(topic.eduLink1)} />
         {checkNeed(topic.subTitle1)}
