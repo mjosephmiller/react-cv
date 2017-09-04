@@ -8,6 +8,17 @@
   }
 }
 
+@media (max-width:575px) {
+  .topic-menu {
+    margin-bottom: 5%;
+  }
+}
+
+.topic-menu ul li{
+  cursor: pointer;
+  cursor: hand;
+}
+
 .container{
   margin: 5% 5% 5% 5%;
 }
