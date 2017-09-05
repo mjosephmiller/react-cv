@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-@media (max-width:575px) {
+@media (max-width:580px) {
   .topic-menu {
     margin-bottom: 5%;
   }
@@ -12,6 +12,11 @@
   .topic-menu {
     margin-bottom: 5%;
   }
+}
+
+.topic-menu ul {
+  display: table;
+  width: 100%;
 }
 
 .topic-menu ul li{

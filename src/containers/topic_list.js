@@ -10,7 +10,7 @@ class TopicList extends Component {
         <li
           key={topic.title}
           onClick={() => this.props.selectTopic(topic)}
-          className="list-group-item">
+          className="list-group-item list-group-item-action">
           {topic.title}
         </li>
       );
