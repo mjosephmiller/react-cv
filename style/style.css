@@ -34,6 +34,33 @@
 .app-container{
 }
 
+.navbar-toggle.collapsed {
+  background-color: transparent !important;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  background-color: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.navbar.navbar-default {
+  background: transparent !important;
+  border: transparent !important;
+  box-shadow: none !important;
+}
+
 .edu-link{
   margin-bottom: 0.5rem;
   font-family: inherit;

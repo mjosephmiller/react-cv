@@ -2,12 +2,12 @@ export default function() {
   return [
     {
         title: "About",
-        subTitle1Context: ["A junior software developer, often found cracking edge cases, nesting callbacks and scouring docs for matchers.", "Interested in how technology can be used to solve inefficiencies through a combination of creative and technical means, I've spent the past year honing my coding skills, first at Makers Academy - Europe's leading developer bootcamp - and now at Bilendo - where we're challenging how Europe handles accounts management."]
+        subTitle1Context: ["Hi, I'm Mike Miller.", "A software developer and writer, often found cracking edge cases, nesting callbacks and scouring docs for matchers.", "Interested in how technology can be used to solve inefficiencies through a combination of creative and technical means, I've spent the past year honing my coding skills, first at Makers Academy - Europe's leading developer bootcamp - and now at Bilendo - where we're challenging how Europe handles accounts management."]
     },
     {
         title: "Skills",
         subTitle1: "Initiative:",
-        subTitle1Context: ["I am proactive when it comes to finding ways to improve productivity and increase value.", "It's this quality that has driven many of my choices, both in my academic and professional life - seeking scholarships in China and the US as an undergraduate and later, successfully pitching ideas to major brands like Warner Music Group, Illva Saronno and more.", "My knack for identifying opportunities continues to benefit me as I seek ways to bring value to my teammates."],
+        subTitle1Context: ["I am proactive when it comes to finding ways to improve productivity and increase value.", "It's this quality that has driven many of my choices in both my academic and professional life - seeking scholarships in China and the US as an undergraduate and later, successfully pitching ideas to major brands like Warner Music Group, Illva Saronno and more.", "My knack for identifying opportunities continues to benefit me as I seek ways to bring value to my teammates."],
         subTitle2:"Team Work:",
         subTitle2Context: ["I have a track record for going to lengths to ensure that the finished product best represents the extent of what my team can achieve, whether that requires working late nights and weekends, or foregoing my own ideas to get behind another's."]
     },

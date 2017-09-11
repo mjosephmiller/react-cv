@@ -19,10 +19,20 @@ class TopicList extends Component {
 
   render() {
     return (
-    <div className="topic-menu col-sm-3">
-        <ul className="list-group">
-          {this.renderList()}
-        </ul>
+      <div className="topic-menu col-sm-3">
+        <nav className="navbar navbar-default">
+            <button className="hamburger hamburger--slider navbar-toggle" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span className="sr-only">Toggle navigation</span>
+                <span className="hamburger-box">
+                  <span className="hamburger-inner"></span>
+                </span>
+            </button>
+            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul className="nav nav-pills nav-stacked">
+                    {this.renderList()}
+                </ul>
+            </div>
+        </nav>
       </div>
     )
   }

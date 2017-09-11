@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import TopicsReducer from '../reducers/reducer_topics';
+import { createMarkup } from '../utils/util';
 
 class TopicDetail extends Component {
   render() {
     if(!this.props.topic) {
+      var firstTopic = TopicsReducer()[0]
       return (
         <div className="info col-sm-9">
-          <h3>{TopicsReducer()[0].title}</h3>
-          {formatText(TopicsReducer()[0].subTitle1Context)}
+          <h3>{firstTopic.title}</h3>
+          {formatText(firstTopic.subTitle1Context)}
         </div>
       )
     }
@@ -16,14 +18,14 @@ class TopicDetail extends Component {
     return (
       <div className="info col-sm-9">
         <h3 className="title">{topic.title}</h3>
-        <div className="edu-link" dangerouslySetInnerHTML={createMarkup(topic.eduLink1)} />
-        {checkNeed(topic.subTitle1)}
+        <p className="h4 edu-link" dangerouslySetInnerHTML={createMarkup(topic.eduLink1)} />
+        {checkNeed(topic.subTitle1, 1)}
         {checkNeed(topic.dates)}
         {checkNeed(topic.subTitle1Summary)}
         {formatText(topic.subTitle1Context)}
         {formatBullets(topic.bullets)}
-        <div className="edu-link" dangerouslySetInnerHTML={createMarkup(topic.eduLink2)} />
-        {checkNeed(topic.subTitle2)}
+        <p className="h4 edu-link" dangerouslySetInnerHTML={createMarkup(topic.eduLink2)} />
+        {checkNeed(topic.subTitle2, 1)}
         {checkNeed(topic.universityDates)}
         {checkNeed(topic.course)}
         {checkNeed(topic.subTitle2Summary)}
@@ -40,19 +42,16 @@ function mapStateToProps(state) {
   };
 }
 
-function createMarkup(link) {
-  return {
-    __html: link
-  };
-}
-
-function checkNeed(topic_attr){
+function checkNeed(topic_attr, subtitle){
   if(!topic_attr) {
     return null
   }
-    return (
-      <h6 className="subtitle">{topic_attr}</h6>
-    )
+  else if(topic_attr && subtitle == 1) {
+    return <h4 className="subtitle">{topic_attr}</h4>
+  }
+  else {
+    return <p className="text">{topic_attr}</p>
+  }
 }
 
 function formatItalics(substr){

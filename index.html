@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Mike Miller | Software Developer</title>
+    <meta name="description" content="Mike Miller is a software developer and writer, based between London and Munich.">
+    <meta name="title" content="Mike Miller | Software Developer" />
+    <meta name="description" content="Mike Miller is a London-based software developer and writer.">
+    <meta name="author" content="Mike Miller">
+    <meta name="keywords" content="software, Makers Academy, Bilendo, web design, digital, digital content, creative, london, munich, cv, freelance, Mike Miller"/>
     <meta name = "viewport" content = "width = device-width">
     <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
-    <script src=""></script>
+    <link href="style/dist/hamburgers.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/6f4ac52df1.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-105986490-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
   </head>
   <body>
     <div class="container col-lg-9 col-sm-12">
+    <div class="info col-sm-3">
     </div>
+    <div class="info col-sm-9">
+      <i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i>{' '}
+      <div className="h4 edu-link" style=display: 'inline-block'><a href='mailto:hello@mikeymiller.co'>hello@mikeymiller.co</a></div>>
+    </div>
+    </div>
+    <script>
+    $(document).ready(function(){
+      $(".hamburger").on("click", function(e) {
+        $(".hamburger").toggleClass("is-active");
+      });
+    });
+    </script>
   </body>
   <script src="bundle.js"></script>
 </html>
