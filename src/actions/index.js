@@ -3,6 +3,7 @@
   // an object with a type property
   return {
     type: "TOPIC_SELECTED",
-    payload: topic
+    payload: topic,
+    class: 'active'
   };
 }

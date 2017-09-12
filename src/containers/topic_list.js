@@ -7,12 +7,12 @@ class TopicList extends Component {
   renderList() {
     return this.props.topics.map((topic) => {
       return (
-        <li
+        <a href="#"
           key={topic.title}
           onClick={() => this.props.selectTopic(topic)}
           className="list-group-item list-group-item-action">
           {topic.title}
-        </li>
+        </a>
       );
     });
   }

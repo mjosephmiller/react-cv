@@ -13,7 +13,7 @@ export default class App extends Component {
             <div className="info col-sm-3">
             </div>
             <div className="info col-sm-9">
-              < hr/>
+              <hr />
               <i className="fa fa-envelope-o fa-lg" aria-hidden="true"></i>{' '}
               <div className="h4 edu-link" style={{display: 'inline-block'}} dangerouslySetInnerHTML={createMarkup("<a href='mailto:hello@mikeymiller.co'>hello@mikeymiller.co</a>")} />
             </div>

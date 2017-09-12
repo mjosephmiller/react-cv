@@ -7,14 +7,14 @@ export default function() {
     {
         title: "Skills",
         subTitle1: "Initiative:",
-        subTitle1Context: ["I am proactive when it comes to finding ways to improve productivity and increase value.", "It's this quality that has driven many of my choices in both my academic and professional life - seeking scholarships in China and the US as an undergraduate and later, successfully pitching ideas to major brands like Warner Music Group, Illva Saronno and more.", "My knack for identifying opportunities continues to benefit me as I seek ways to bring value to my teammates."],
+        subTitle1Context: ["I am proactive when it comes to finding ways to improve productivity and increase value.", "It's this quality that has driven many of my choices in both my work and study - seeking scholarships in China and the US as an undergraduate and later, successfully pitching ideas to major brands like Warner Music Group, Illva Saronno and more.", "My knack for identifying opportunities continues to benefit me as I seek ways to bring value to my teammates."],
         subTitle2:"Team Work:",
         subTitle2Context: ["I have a track record for going to lengths to ensure that the finished product best represents the extent of what my team can achieve, whether that requires working late nights and weekends, or foregoing my own ideas to get behind another's."]
     },
     {
         title: "Projects",
         eduLink1: '<a href=\"https://github.com/road-to-code/road-to-code\">Road to Code<\/a>',
-        subTitle1Context: ["Given a brief to build a game that would introduce children to the foundations of programming, our team of four junior developers made Road to Code - an interactive grid-based game that requires the player to get across a map by programming directions for their character to follow. Interested in the challenge, we decided against using any frameworks. Instead, we wrote each line of code and favoured vanilla JavaScript for our frontend."],
+        subTitle1Context: ["Given a brief to build a game that would introduce children to the foundations of programming, our team of four junior developers made Road to Code - an interactive grid-based game that requires the player to get across a map by programming directions for their character to follow. Interested in the challenge, we decided against using any frameworks and favoured vanilla JavaScript for our frontend."],
         eduLink2: '<a href=\"https://github.com/mjosephmiller/codey-gonzalez\">Codey Gonzalez<\/a>',
         subTitle2Context: ["Participating in a three-day developer-tool hackathon, our team of five junior developers, aimed to improve coders' speed, accuracy and familiarity with best-practice formatting. Defining our MVP early, we implemented agile development to deliver the product on time and to specification."]
     },
@@ -38,7 +38,7 @@ export default function() {
         subTitle2: "Digital Content Creative - Freelance",
         universityDates: "2014 - 2016",
         subTitle2Summary: "Companies: The Weinstein Company, Hanley NYC, EMMAMILLER.COM",
-        bullets2: ["Devised growth strategies for social platforms, including Instagram, Twitter, Facebook, Snapchat and Youtube.", "Worked with editorial and product teams to deliver cross-platform content - including video - to engage the brands' respective audiences, often to tight deadlines.", "Identifying a gap in my skillset, I taught myself to use Adobe Photoshop, InDesign and Premiere Pro.", "Managed collaborations with brands, such as Warner Music Group at Coachella Music Festival, Tom Ford Beauty at New York Fashion Week and Illva Saronno."]
+        bullets2: ["Devised growth strategies for social platforms, including Instagram, Twitter, Facebook, Snapchat and Youtube.", "Worked with editorial and product teams to deliver cross-platform content - including video - to engage the brands' respective audiences, often to tight deadlines.", "Self-taught Adobe Photoshop, InDesign and Premiere Pro.", "Managed collaborations with brands, such as Warner Music Group at Coachella Music Festival, Tom Ford Beauty at New York Fashion Week and Illva Saronno."]
     },
     {
         title: "Talks & Publications",
