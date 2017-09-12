@@ -21,7 +21,7 @@ class TopicList extends Component {
     return (
       <div className="topic-menu col-sm-3">
         <nav className="navbar navbar-default">
-            <button className="hamburger hamburger--slider navbar-toggle" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button className="hamburger hamburger--slider navbar-toggle" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-label="Menu" aria-controls="navigation" aria-expanded="false">
                 <span className="sr-only">Toggle navigation</span>
                 <span className="hamburger-box">
                   <span className="hamburger-inner"></span>
