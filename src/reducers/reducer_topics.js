@@ -27,7 +27,7 @@ export default function() {
         eduLink2: '<a href=\"https://www.kcl.ac.uk\">King\'s College London<\/a>',
         universityDates:"2010 - 2013",
         course:"English Language & Literature, BA Hons (2:1)",
-        subTitle2Context: ["Awarded a scholarship to study at the University of Pennsylvania, where I spent my second year of university."]
+        bullets2: ["2012 - awarded a scholarship to study at the University of Pennsylvania, where I spent my second year of university.", "2011 - awarded a summer scholarship at Beijing Normal University in association with the British Council."]
     },
     {
         title: "Experience",
